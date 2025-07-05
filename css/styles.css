@@ -446,7 +446,7 @@ margin-right: 80px;
 
 
 .form-subtitle{
-    font-family: inherit;
+    font-family: 
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -457,10 +457,10 @@ margin-right: 80px;
 
 .form-mail{
     display: flex;
+    gap: 24px;
 }
 
 .form-mail-input{
-    font-family: inherit;
     font-weight: 400;
     font-size: 12px;
     line-height: 200%;
@@ -607,7 +607,7 @@ margin-right: 80px;
 }
 
 
-.label{
+.modal-form-label{
     margin-bottom: 8px;
 }
 
@@ -622,7 +622,7 @@ margin-right: 80px;
     display: block;
 }
 
-.input {
+.modal-input {
     position: relative;
     display: flex;
     align-items: center;
