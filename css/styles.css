@@ -452,13 +452,11 @@ margin-right: 80px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #ffffff;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .form-mail{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .form-mail-input{
@@ -474,6 +472,7 @@ margin-right: 80px;
     border-radius: 4px;
     background-color: transparent;
     outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .form-mail-input::placeholder {
@@ -485,6 +484,7 @@ margin-right: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.04em;
