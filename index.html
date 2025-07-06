@@ -581,14 +581,18 @@
           </textarea>
           </div>
           <div class="modal-form-check">
-          <input class="modal-check-switcher" type="checkbox" />
-          <label class="modal-check">
+          <input class="visually-hidden" type="checkbox" value="true" name="user-privacy"/>
+          <label class="modal-check" for="user-privacy"><span class="privacy">
+              <svg class="input-icon" width="10" height="8">
+              <use href="./images/icons.svg#icon-check"></use>
+            </svg>
+            </span>
             I accept the terms and conditions of the
-            <span class="privacy">Privacy Policy</span>     
+            <a class="privacy-nav" href="">Privacy Policy</a>   
         </label>   
         </div>     
-        <button class="btn-send" type="button">Send</button>
-</form>
+        <button class="button-send" type="button">Send</button>
+      </form>
       </div>
     </div>
     
